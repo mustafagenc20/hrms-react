@@ -1,0 +1,12 @@
+import React from 'react'
+import { Container, Header } from 'semantic-ui-react'
+
+export default function Footer() {
+    return (
+        <Container className="footer" fluid textAlign="center">
+            <Header className="footerHeader" dividing content="HRMS.com" />
+            <Header.Content className="footerSubContent">Copyright © 2022 by Mustafa Genc</Header.Content>
+            <Header.Content className="footerSubContent">HRMS.com is Powered By Semantic Ui React</Header.Content>
+        </Container>
+    )
+}
