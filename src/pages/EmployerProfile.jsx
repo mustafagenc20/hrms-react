@@ -86,7 +86,7 @@ export default function EmployerProfile() {
                         <Card fluid>
                             <Image
                                 style={{ minHeight: "350px", marginBottom: "1em" }}
-                                src={"https://www.incimages.com/uploaded_files/image/1920x1080/GettyImagesGettyImages-475636790_165141.jpg"} />
+                                src={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Breezeicons-actions-22-im-user.svg/512px-Breezeicons-actions-22-im-user.svg.png"} />
                             <Card.Header
                                 content={employer.companyName} />
                             <Card.Meta
@@ -150,7 +150,7 @@ export default function EmployerProfile() {
                                                         )
                                                             .toString()
                                                             .split(".", 1)}{" "}
-                                                        gün
+                                                        date
                                                     </Table.Cell>
                                                     <Table.Cell content={jobAdvertisement.createdDate} />
                                                     <Table.Cell>
@@ -257,7 +257,7 @@ export default function EmployerProfile() {
                                                         )
                                                             .toString()
                                                             .split(".", 1)}{" "}
-                                                        gün
+                                                        date
                                                     </Table.Cell>
                                                     <Table.Cell content={waitingAdvert.createdDate} />
                                                     <Table.Cell content={

@@ -239,7 +239,7 @@ export default function EmployeeProfile() {
                                                     {(
                                                         (new Date(advert.lastApplication).getTime() - new Date(Date.now()).getTime()) / 86400000)
                                                         .toString()
-                                                        .split(".", 1)}{" "} gün
+                                                        .split(".", 1)}{" "} date
                                                 </Table.Cell>
                                                 <Table.Cell>
                                                     <Button
@@ -360,7 +360,7 @@ export default function EmployeeProfile() {
                                 icon={false}
                                 className="employeeAccordTitle"
                                 name="updateEmployee"
-                                content="Sistem Personeli Güncelle"
+                                content="Update System Personel"
                                 active={activeItem === "updateEmployee"}
                                 onClick={handleItemClick} />
                             <Accordion.Content
