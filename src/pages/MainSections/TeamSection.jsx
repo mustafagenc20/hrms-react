@@ -14,7 +14,7 @@ export default function TeamSection() {
                         <Grid.Column largeScreen="16" mobile='16' tablet='12' computer='10' >
                             <Header className='teamHeader' as='h2'>Who are we?</Header>
                             <Header.Content className='teamMainContent'>
-                                <span className="teamMainPersonName">Patrick Geudens;</span> Instructor </Header.Content>
+                                <span className="teamMainPersonName">Patrick Geudens;</span> Instructor and much more..</Header.Content>
                             <Header.Content className='teamMainContent'>
                                 <span className="teamMainPersonName">Mustafa Genc;</span> Junior Java Developer </Header.Content>
                         </Grid.Column>
@@ -34,7 +34,7 @@ export default function TeamSection() {
                                 </Grid.Column>
                                 <Grid.Column tablet="16" computer="8">
                                     <Header dividing className="teamPersonHeader" content="Patrick Geudens" />
-                                    <Item className="teamPersonContent" meta="Instructor" />
+                                    <Item className="teamPersonContent" meta="Instructor and much more.." />
                                     <Divider />
                                     <Menu compact secondary widths="5">
                                         <Menu.Item href="" target="_blank">

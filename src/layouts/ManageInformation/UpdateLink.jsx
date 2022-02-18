@@ -82,7 +82,7 @@ export default function UpdateLink({ unemployedId, updateCv }) {
                             <Grid.Column width="8">
                                 <Form.Input
                                     placeholder={
-                                        links === null ? "Github Address" : links.linkedinLink}
+                                        links === null ? "LinkedIn Address" : links.linkedinLink}
                                     name="linkedinLink"
                                     onChange={handleChange}
                                     onBlur={handleBlur} />

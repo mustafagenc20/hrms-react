@@ -66,7 +66,7 @@ export default function JobAdvertisementFavorite() {
                                         </Card.Meta>
                                         <Card.Content>
                                             <Card.Meta>
-                                                Son Kabul :
+                                                Last Application :
                                                 {(
                                                     (new Date(favoriteAdvert.jobAdvertisement.lastApplication).getTime() -
                                                         new Date(Date.now()).getTime()) /
@@ -74,7 +74,7 @@ export default function JobAdvertisementFavorite() {
                                                 )
                                                     .toString()
                                                     .split(".", 1)}{" "}
-                                                gün
+                                                date
                                             </Card.Meta>
                                         </Card.Content>
                                         <Divider hidden />

@@ -144,52 +144,52 @@ export default function JobAdvertisementDetail() {
 
                             <Table.Body>
                                 <Table.Row>
-                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Pozisoyn</Table.Cell>
+                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Position</Table.Cell>
                                     <Table.Cell>{jobAdvertisement.position?.positionName}</Table.Cell>
                                 </Table.Row>
 
                                 <Table.Row>
-                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Şehir</Table.Cell>
+                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>City</Table.Cell>
                                     <Table.Cell>{jobAdvertisement.city?.cityName}</Table.Cell>
                                 </Table.Row>
 
                                 <Table.Row>
-                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Çalışma Şekli</Table.Cell>
+                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Working Type</Table.Cell>
                                     <Table.Cell>{jobAdvertisement.employmentType?.typeName}</Table.Cell>
                                 </Table.Row>
 
                                 <Table.Row>
-                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Çalışma Zamanı</Table.Cell>
+                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Working Time</Table.Cell>
                                     <Table.Cell>{jobAdvertisement.employmentTime?.timeName}</Table.Cell>
                                 </Table.Row>
 
                                 <Table.Row>
-                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Min Maaş</Table.Cell>
+                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Min Salary</Table.Cell>
                                     <Table.Cell>{jobAdvertisement.minSalary}</Table.Cell>
                                 </Table.Row>
 
                                 <Table.Row>
-                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Max Maaş</Table.Cell>
+                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Max Salary</Table.Cell>
                                     <Table.Cell>{jobAdvertisement.maxSalary}</Table.Cell>
                                 </Table.Row>
 
                                 <Table.Row>
-                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Kontenjan</Table.Cell>
+                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Quota</Table.Cell>
                                     <Table.Cell>{jobAdvertisement.quota}</Table.Cell>
                                 </Table.Row>
 
                                 <Table.Row>
-                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Eklenme Tarihi</Table.Cell>
+                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Created Date</Table.Cell>
                                     <Table.Cell>{jobAdvertisement.createdDate}</Table.Cell>
                                 </Table.Row>
 
                                 <Table.Row>
-                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Son Kabul</Table.Cell>
+                                    <Table.Cell singleLine style={{ fontWeight: "bolder" }}>Last Application</Table.Cell>
                                     <Table.Cell>{jobAdvertisement.lastApplication}</Table.Cell>
                                 </Table.Row>
 
                                 <Table.Row>
-                                    <Table.Cell style={{ fontWeight: "bolder" }}>Açıklama</Table.Cell>
+                                    <Table.Cell style={{ fontWeight: "bolder" }}>Description</Table.Cell>
                                     <Table.Cell>{jobAdvertisement.jobDescription}</Table.Cell>
                                 </Table.Row>
                             </Table.Body>
