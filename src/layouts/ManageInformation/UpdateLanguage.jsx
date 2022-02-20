@@ -22,7 +22,7 @@ export default function UpdateLanguage({ unemployedId, handleSubModalClick, acti
         value: level
     }))
 
-    const languagesList = ["English", "Dutch", "French", "German", "Turkish", "Spanish", "Portuguese", "Russian", "Korean", "Japanese"]
+    const languagesList = ["English", "Dutch", "French", "German", "Italian", "Turkish", "Spanish", "Portuguese", "Russian", "Korean", "Japanese"]
 
     const languageOption = languagesList.map((language) => ({
         key: language,
