@@ -265,7 +265,7 @@
 .contactHeader {
   font-size: 50px !important;
   font-weight: lighter !important;
-  background: -webkit-linear-gradient(#ce1534, #240b36) !important;
+  background: -webkit-linear-gradient(#ce1534e9, #240b36) !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
